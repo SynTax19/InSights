@@ -48,13 +48,20 @@ const News = (props) => {
 
   return (
     <>
-      <div className="container my-4">
+      <div
+        className="container my-4"
+        style={{
+          backgroundColor: "#f7f3f2",
+          // "linear-gradient(to bottom , rgba(116, 235, 213, 0.6),rgba(159, 172, 230, 0.6))",
+        }}
+      >
         <h1
           className="text-center"
           style={{
             margin: "40px 0px",
             fontFamily: "monospace",
-            marginTop: "90px",
+            marginTop: "60px",
+            backgroundColor: "#f7f3f2",
           }}
         >
           <strong> InSights - Top {t.toUpperCase()} Headlines </strong>
