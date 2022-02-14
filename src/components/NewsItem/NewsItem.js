@@ -11,7 +11,7 @@ const NewsItem = (props) => {
   return (
     <>
       <div className="my-5">
-        <div className="card1">
+        <div className="card1" style={{ backgroundColor: "#d9fffb" }}>
           <span
             className="position-absolute top-0  translate-middle badge rounded-pill bg-danger"
             style={{ left: "88%", zIndex: "1" }}
@@ -22,7 +22,7 @@ const NewsItem = (props) => {
           <div className="card-body">
             <div className="title">
               <h5 className="card-title">
-                {props.title}
+                {<strong> {props.title}</strong>}
                 <span
                   className="badge rounded-pill bg-success float-right"
                   style={{ float: "right" }}

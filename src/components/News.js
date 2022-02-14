@@ -49,14 +49,15 @@ const News = (props) => {
   return (
     <>
       <div
-        className="container my-4"
+        className="container"
         style={{
           backgroundColor: "#f7f3f2",
+          marginTop: "100px",
           // "linear-gradient(to bottom , rgba(116, 235, 213, 0.6),rgba(159, 172, 230, 0.6))",
         }}
       >
         <h1
-          className="text-center"
+          className="text-center my-1"
           style={{
             margin: "40px 0px",
             fontFamily: "monospace",
