@@ -1,4 +1,5 @@
 import React from "react";
+import "./NewsItem.css";
 
 const NewsItem = (props) => {
   // let { title, description, imgUrl, newsUrl, author, date, category, source } =
@@ -9,8 +10,8 @@ const NewsItem = (props) => {
 
   return (
     <>
-      <div className="my-3">
-        <div className="card">
+      <div className="my-5">
+        <div className="card1">
           <span
             className="position-absolute top-0  translate-middle badge rounded-pill bg-danger"
             style={{ left: "88%", zIndex: "1" }}
